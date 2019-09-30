@@ -229,27 +229,7 @@ for number in 1...15 {
         
         
         
-        IGNORE BELOW : IT'S NOT A SWITCH STATEMENT
         
-    } == 3 {
-        print ("It's a triangle")
-        } else if number == 4 {
-        print ("It's a square")
-        } else if number == 5 {
-        print ("its a pentagon")
-        } else if number == 6 {
-        print ("it's a hexagon")
-        } else if number == 7 {
-        print ("it's a heptagon")
-        } else if number == 8 {
-        print ("it's a octagon")
-        }
-
-else {
-    print("out of range")
-    
-}
-}
 ***
 
 ## Question 10
