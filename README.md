@@ -27,12 +27,15 @@ if conditionTwo {
 }
 print("D")
 ```
+let conditionOne = false || true ------> true
+let conditionTwo = true
 
-- A
-- B
-- C
-- D
-
+- A x
+- B x
+- C x
+- D x
+ 
+ or A and D ??????
 ***
 ## Question 2
 
@@ -50,11 +53,8 @@ switch appInfo {
 }
 ```
 
-- appInfo.0 hasn't released yet
-- myCoolApp hasn't released yet
-- Thanks for looking at myCoolApp!
-- I'm not quite sure what you are looking at
-- It will give a compile-time error
+- myCoolApp hasn't released yet 
+
 
 ***
 ## Question 3
@@ -75,9 +75,6 @@ default:
 }
 ```
 
-- A
-- B
-- C
 - D
 
 ***
@@ -98,9 +95,9 @@ case "snickers":
 }
 ```
 
-- No parentheses around the conditions
-- No opening and closing brackets in each of the cases
-- No default case in the switch statement
+? No parentheses around the conditions
+x No opening and closing brackets in each of the cases
+x No default case in the switch statement
 - No print statement right outside the switch statement
 
 ***
@@ -113,6 +110,15 @@ let currentWeather = "rain"
 
 // enter code below
 ```
+let currentWeather = "rain"
+
+switch currentWeather {
+case ("rain"):
+    print("bring an umbrella!")
+    default:
+        print("have a nice day!")
+}
+
 
 ***
 ## Question 6
@@ -123,9 +129,13 @@ Given the first name and last name of a Fellow, declare `fullName` variable and 
 let firstName = "John"
 let lastName = "Appleseed"
 
-// enter code below
-```
+let fullName = "firstName" + " lastName"
 
+switch fullName {
+    print((fullName))
+}
+```
+COME BACK TO THIS
 ***
 
 ## Question 7
@@ -145,6 +155,18 @@ if temperatureInFahrenheit <= 40 {
 
 ```
 
+switch temperatureInFahrenheit {
+case temperatureInFahrenheit <= 40:
+    print("It's cold out.")
+case temperatureInFahrenheit >= 85 
+    print("It's really warm.")
+    default:
+ print("Weather is moderate.")
+ }
+ 
+ 
+ +++Expression pattern of type 'Bool' cannot match values of type 'Int'?????
+ 
 ***
 
 ## Question 8
@@ -152,7 +174,10 @@ if temperatureInFahrenheit <= 40 {
 Complete the following code so that "You win!" is printed.
 
 ```swift
-if {
+
+day = "friday"
+
+if day == "friday"{
  print("You win!")
 } 
 else {
@@ -185,6 +210,46 @@ Output:
 Error
 
 ```
+
+GO BACK TO THIS!!!!!
+
+
+var numberOfSides = 6
+
+for number in 1...15 {
+    switch number {
+    case number = 3:
+        print ("It's a triangle")
+    case number = 4:
+        print ("It's a square")
+    case number = 5:
+        print ("It's a pentagon")
+        
+        
+        
+        
+        
+        IGNORE BELOW : IT'S NOT A SWITCH STATEMENT
+        
+    } == 3 {
+        print ("It's a triangle")
+        } else if number == 4 {
+        print ("It's a square")
+        } else if number == 5 {
+        print ("its a pentagon")
+        } else if number == 6 {
+        print ("it's a hexagon")
+        } else if number == 7 {
+        print ("it's a heptagon")
+        } else if number == 8 {
+        print ("it's a octagon")
+        }
+
+else {
+    print("out of range")
+    
+}
+}
 ***
 
 ## Question 10
@@ -200,6 +265,8 @@ Numeric Score 	Letter Grade
 65 - 69 	D
 Below 65 	F
 ```
+
+
 ***
 
 ## Question 11
